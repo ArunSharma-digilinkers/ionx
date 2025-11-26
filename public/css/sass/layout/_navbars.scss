@@ -1,0 +1,123 @@
+/*====================================================================
+	Navbar style 1
+=====================================================================*/
+.navbar {
+     background-color: transparent;	
+	 
+	.logo-img {
+		width: 100px;
+		display: block;
+	}
+	.logo-img.dark-mode {
+		display: none;
+	}
+	.nav-item {
+		padding-left: 0.5rem;
+	}
+	.nav-link {
+		color: $color-white;
+		line-height: 50px;
+		text-transform: uppercase;
+		letter-spacing: 1.2px;
+		font-weight: 500;
+        font-size: 15px;
+	}
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #fff;
+    border-radius: 0;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    padding: 0;
+    line-height: 46px;
+    border: none;
+}
+
+
+/* Hide dropdown by default */
+#exportsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+}
+
+/* Hide dropdown by default */
+#productsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+}
+
+
+
+/* Hide dropdown by default */
+#productsDropdown .dropdown-menu,
+#exportsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+    padding: 0;
+}
+
+/* Show on hover via .show-dropdown */
+#productsDropdown.show-dropdown .dropdown-menu,
+#exportsDropdown.show-dropdown .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-item {
+    background-color: $color-primary;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+	padding: 3px 15px;
+ }
+ .dropdown-item:hover {
+    background-color: #000;
+    color: #fff;
+ }
+
+.customNav {
+	animation: navSlide 1s ease forwards;
+	background-color: $color-primary;
+	-webkit-box-shadow: 0 2px 6px -1px rgba($color-black, .2);
+	box-shadow: 0 2px 6px -1px rgba($color-black, .2);
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.dark .customNav {
+	background-color: $dark-mode;
+}
+@keyframes navSlide {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
