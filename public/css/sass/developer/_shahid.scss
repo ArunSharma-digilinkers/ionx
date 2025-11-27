@@ -31,7 +31,7 @@ h5{
         background-color: #e0f6e9;
         padding: 10px;
         border-radius: 10px;
-        font-weight: 300;
+        font-weight: 500;
     }
 }
 
@@ -271,33 +271,83 @@ h3 {
 }
 
 
-.mission-vision {
-    background-color: $color-secondary;
+.mission-vision-wrapper {
+    background-color: #e0f6e9;
 
-    .mission-box {
-        background-color: #fff;
-        padding: 10px;
-    }
+   .mission-txt-box {
+        background: #fff;
+        padding: 15px;
+   }
 
-    h4 {
-        margin-bottom: 15px;
-    }
+ .mission-img-box {
+    background-color: #fff;
+    padding: 10px;
+}
 
-    .mission-txt-box {
-        margin-top: 20px;
-    }
 }
 
 
 
-.mission-vision .row {
-    display: flex;
-    justify-content: space-between;
+.achievements {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
 }
 
-.mission-vision .col-md-6 {
-    width: 48%;
+.achievements h3 {
+    margin-bottom: 40px;
 }
+
+.achievement-item {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-item h4 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.achievement-item p {
+    font-size: 18px;
+    color: #777;
+}
+
+
+.testimonials-wrapper {
+    
+    .header-box {
+        margin-bottom: 50px;
+    }
+
+    .test-wrap {
+       background: #FFF;
+        background: radial-gradient(circle, rgb(255, 255, 255) 25%, rgb(224 246 233) 100%);
+    padding: 20px;
+    text-align: center;
+
+        img {
+            border-radius: 50%;
+            width: 110px;
+        }
+    }
+
+    .test-img-box {
+        img {
+           margin-top: -60px;
+        }
+    }
+
+   .checked {
+       color: orange;
+    }
+
+}
+
 
 .company-cta {
     background-image: url('../img/company-cta.jpg');
@@ -330,55 +380,6 @@ h3 {
     }
 }
 
-.achievements {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.achievements h3 {
-    margin-bottom: 40px;
-}
-
-.achievement-item {
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 8px;
-    margin: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.achievement-item h4 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.achievement-item p {
-    font-size: 18px;
-    color: #777;
-}
-
-.test-wrap {
-    background: $color-secondary;
-    padding: 30px;
-    border-radius: 5px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    
-    .test-img-box img   {
-    width: 110px !important;
-    margin-right: 20px;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   }
-
-}
-
 
 ////////////////////////////// Certificate ////////////////////////////////
 
@@ -409,52 +410,62 @@ h3 {
 
 ////////////////////////////// Contact us ////////////////////////////////
 
-// .page-banner-fixed-contact {
-//     background-image: url('../img/contact-us-banner.jpg');
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     padding: 250px 0;
-//     text-transform: uppercase;
 
-//     h2 {
-//     font-weight: 700;
-//    color: $color-primary;
-//     margin-bottom: 17px;
-// }
+.page-banner-fixed-contact {
+    background-image: url('../img/contact-us-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+    text-transform: uppercase;
 
-// }
+    h2 {
+    font-weight: 700;
+   color: $color-primary;
+    margin-bottom: 17px;
+}
 
-// .contact-info-wrapper {
-//     background-image: url('../img/contact-bg.jpg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
+}
 
-//     .contact-info-box i {
-//         color: #ffffff;
-//         width: 45px;
-//         height: 45px;
-//         font-size: 20px;
-//         border: 1px solid #fff;
-//         text-align: center;
-//         border-radius: 50%;
-//         line-height: 45px;
-//         transition: all 0.3s;
-//         background: #097e51;
-//     }
 
-//     a {
-//         color: #000;
-//         margin-left: 10px;
-//         font-weight: 600;
-//     }
+.contact-info-wrapper {
+    background-image: url('../img/contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-//     ul li {
-//         margin-bottom: 20px;
-//     }
 
-// }
+       .contact-info-box i {
+        color: #ffffff;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        border: 1px solid #fff;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 45px;
+        transition: all 0.3s;
+        background: #097e51;
+    }
+
+    
+    a {
+        color: #000;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    ul li {
+        margin-bottom: 20px;
+    }
+}
+
+.contact-form-wrap {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    border-radius: 10px;
+}
 
 .contact-wrapper {
   padding: 60px 0;

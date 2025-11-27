@@ -12,7 +12,7 @@ defined('TEMPLATE_FRONT') ? null : define('TEMPLATE_FRONT', __DIR__ . DS . 'temp
 $company = "Ionx Energy India";
 
 // Localhost settings
-$path = '/ionx/public/';
+$path = '/projects/ionx/public/';
 
 
 // defined('DB_HOST') ? null : define('DB_HOST', 'localhost');
