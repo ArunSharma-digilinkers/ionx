@@ -13,19 +13,33 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <!-- <li class="nav-item myNav-item">
+                <li class="nav-item myNav-item">
                     <div class="dropdown">
                         <a class="nav-link myNav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                             data-bs-toggle="dropdown" aria-expanded="false"> About us
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Company profile</a></li>
+                            <li><a class="dropdown-item" href="company-profile">Company profile</a></li>
+                            <li><a class="dropdown-item" href="recycle">Recycle With Us</a></li>
                             <li><a class="dropdown-item" href="#">Certificates</a></li>
                             <li><a class="dropdown-item" href="#">Leadership</a></li>
                         </ul>
                     </div>
-                </li> -->
+                </li>
+
+                <li class="nav-item myNav-item">
+                    <div class="dropdown">
+                        <a class="nav-link myNav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false"> services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="lithium-ion-battery">lithium ion battery</a></li>
+                            <li><a class="dropdown-item" href="battery-material">Battert Material</a></li>
+                        </ul>
+                    </div>
+                </li>
                 
                 <!-- <li class="nav-item myNav-item">
                     <div class="dropdown">
@@ -46,9 +60,6 @@
                         </ul>
                     </div>
                 </li> -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>#about-us">About Us</a>
-                </li>
                    <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>#manufacturing">Manufacturing</a>
                 </li>
@@ -57,7 +68,7 @@
                 </li>
              
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>#contact-us">Contact Us</a>
+                    <a class="nav-link" href="<?php echo $path; ?>contact-us">Contact Us</a>
                 </li>
             </ul>
         </div>

@@ -55,8 +55,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="hm-info-img-box">
-
+                            <div class="hm-info-box">
+                                <img src="img/hm-info-img.jpg" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -171,8 +171,7 @@
                                 </div>
                                 <div class="recycle-txt-wrap">
                                     <h6>Collect</h6>
-                                    <p>We safely collect the used lithium-ion from users and industries and then sort
-                                        them as per type, size, and chemistry.</p>
+                                    <p>We collect used lithium-ion batteries, sorting them by type, size, and chemistry for safe processing.</p>
                                 </div>
                             </div>
                         </div>
@@ -372,10 +371,7 @@
                                         <div class="card-side__content">
                                             <h5 class="card-side__title">Lack of a reverse logistics ecosystem</h5>
                                             <p class="card-side__text">
-                                                Because of the poor collection network, most used batteries are not able
-                                                to make it to recycling centers. We are developing efficient reverse
-                                                logistics systems that ensure batteries are safely returned for proper
-                                                recycling.
+                                                Due to a poor collection network, most used batteries don't reach recycling centers. We are creating efficient reverse logistics systems to ensure batteries are safely returned for proper recycling.
                                             </p>
                                         </div>
                                     </div>
@@ -391,11 +387,7 @@
                                             <h5 class="card-side__title">Lack of transparency in refining & recycling
                                             </h5>
                                             <p class="card-side__text">
-                                                One of the significant challenges in the battery recycling industry is
-                                                the lack of transparency in the refining and recycling processes. Many
-                                                recycling operations do not provide clear information about how
-                                                materials are processed, which can lead to a lack of trust among
-                                                consumers and businesses.
+                                                A major challenge in battery recycling is the lack of transparency in refining processes. Many operations don’t disclose how materials are processed, leading to mistrust among consumers and businesses.
                                             </p>
                                         </div>
                                     </div>
