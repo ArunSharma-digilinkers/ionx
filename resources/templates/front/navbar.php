@@ -21,8 +21,22 @@
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="company-profile">Company profile</a></li>
+                            <li><a class="dropdown-item" href="recycle">Recycle With Us</a></li>
                             <li><a class="dropdown-item" href="#">Certificates</a></li>
                             <li><a class="dropdown-item" href="#">Leadership</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item myNav-item">
+                    <div class="dropdown">
+                        <a class="nav-link myNav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false"> services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="lithium-ion-battery">lithium ion battery</a></li>
+                            <li><a class="dropdown-item" href="battery-material">Battert Material</a></li>
                         </ul>
                     </div>
                 </li>

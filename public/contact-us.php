@@ -97,7 +97,7 @@
 
 
 						<div class="col-lg-6 col-md-6 col-sm-12">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6984.5107953669285!2d77.65666300000001!3d28.920466999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c640c937e3855%3A0x904533d92b6b06c3!2sVoltaic%20Industries%20Pvt.Ltd%20(Vacuna%20Battery)%20-%20Battery%20Manufacturer%20in%20Meerut!5e0!3m2!1sen!2sin!4v1753158849357!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6984.5107953669285!2d77.65666300000001!3d28.920466999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c640c937e3855%3A0x904533d92b6b06c3!2sVoltaic%20Industries%20Pvt.Ltd%20(Vacuna%20Battery)%20-%20Battery%20Manufacturer%20in%20Meerut!5e0!3m2!1sen!2sin!4v1753158849357!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 							
 						</div>
 

@@ -272,11 +272,20 @@ h3 {
 
 
 .mission-vision-wrapper {
-    background-color: #e0f6e9;
+    background-image: url('../img/bg.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-   .mission-txt-box {
-        background: #fff;
-        padding: 15px;
+   .mission-box {
+       background-color: #f2fbf6;
+        height: 100%;
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 15px;
    }
 
  .mission-img-box {
@@ -340,6 +349,10 @@ h3 {
         img {
            margin-top: -60px;
         }
+
+        h4 {
+            margin-top: 10px;
+        }
     }
 
    .checked {
@@ -380,32 +393,107 @@ h3 {
     }
 }
 
+////////////////////////////// products ////////////////////////////////
 
-////////////////////////////// Certificate ////////////////////////////////
+.pro-cta-wrapper {
+       background-image: url('../img/pro-bg.png');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-blend-mode: overlay;
+       background-color: rgb(9 126 81 / 85%);
 
-.page-banner-fixed-certificate {
-    background-image: url('../img/certificate-banner.jpg');
+        h4 {
+            color: #fff;
+            font-size: 35px;
+            font-weight: 900;
+            line-height: 50px;
+        }
+
+        i {
+            color: #000000;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 16px;
+        }
+
+        ul,li {
+            color: #fff;
+            line-height: 60px;
+        }
+
+        span {
+            margin-left: 15px;
+        }
+}
+
+
+
+.material-info ul li {
+    line-height: 35px;
+}
+.battery-step-box {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 25px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.recycle-img-wrapper {
+    background-color: rgba(224, 246, 233, 0.5294117647);
+
+    .recycle-box {
+        background-color: #fff;
+        text-align: center;
+        padding: 25px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+}
+
+ .flex-direction {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+.recycle-form-wrapper {
+    background-image: url('../img/recycle-bg-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px 0;
-    text-transform: uppercase;
-
-    h2 {
-    font-weight: 700;
-    color: $color-primary;
-    margin-bottom: 17px;
-}
 }
 
-.certificate-wrapper {
-    background-color: #effaf3;
 
-     h4 {
-    text-align: center;
-    margin-top: 30px;
-}
-}
+////////////////////////////// Certificate ////////////////////////////////
+
+// .page-banner-fixed-certificate {
+//     background-image: url('../img/certificate-banner.jpg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     padding: 250px 0;
+//     text-transform: uppercase;
+
+//     h2 {
+//     font-weight: 700;
+//     color: $color-primary;
+//     margin-bottom: 17px;
+// }
+// }
+
+// .certificate-wrapper {
+//     background-color: #effaf3;
+
+//      h4 {
+//     text-align: center;
+//     margin-top: 30px;
+// }
+// }
 
 
 ////////////////////////////// Contact us ////////////////////////////////
@@ -462,9 +550,9 @@ h3 {
 
 .contact-form-wrap {
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .contact-wrapper {

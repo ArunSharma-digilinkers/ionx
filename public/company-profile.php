@@ -92,7 +92,7 @@
                                 <a href="">Get Started</a>
                             </div>
                             <div class="hm-btn-3">
-                                <a href="">view our services</a>
+                                <a href="">View Our Services</a>
                             </div>
                         </div>
                     </div>
@@ -114,6 +114,26 @@
 						<div class="test-wrap">
 							<div class="test-img-box">
 								<img src="img/client.png" class="img-fluid">
+                                <h4>Rachin Sodhi</h4>
+
+								<div class="rating-box">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+								</div>
+							</div>
+							<div class="test-txt-box">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus iste consequuntur, architecto tempora saepe sed cumque ut nesciunt quas. Asperiores qui accusantium sunt reiciendis dicta culpa ex aliquam maiores obcaecati.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+						<div class="test-wrap">
+							<div class="test-img-box">
+								<img src="img/client-1.png" class="img-fluid">
+                                <h4>Soni Singh</h4>
 
 								<div class="rating-box">
 									<span class="fa fa-star checked"></span>
@@ -131,25 +151,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-12 mt-4">
 						<div class="test-wrap">
 							<div class="test-img-box">
-								<img src="img/client.png" class="img-fluid">
-
-								<div class="rating-box">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-								</div>
-							</div>
-							<div class="test-img-box">
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus iste consequuntur, architecto tempora saepe sed cumque ut nesciunt quas. Asperiores qui accusantium sunt reiciendis dicta culpa ex aliquam maiores obcaecati.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 mt-4">
-						<div class="test-wrap">
-							<div class="test-img-box">
-								<img src="img/client.png" class="img-fluid">
+								<img src="img/client-2.png" class="img-fluid">
+                                <h4>Aman chauhan </h4>
 
 								<div class="rating-box">
 									<span class="fa fa-star checked"></span>
